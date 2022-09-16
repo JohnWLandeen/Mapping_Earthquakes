@@ -109,6 +109,8 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
   earthquakes.addTo(map);
 
 
+  // Legend API must be deprecated. Disfunctional.
+
   // Create a legend control object.
   let legend = L.control({
     position: 'bottomright'
